@@ -20,5 +20,13 @@
   "dependencies": {
     "gulp-htmlmin": "^5.0.1",
     "gulp-rename": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazantip94/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kazantip94/test/issues"
+  },
+  "homepage": "https://github.com/Kazantip94/test#readme"
 }
