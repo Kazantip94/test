@@ -1,0 +1,116 @@
+.header
+    &-info
+        background: url('../img/bgheader.jpg') no-repeat center / cover
+        position: relative
+        height: 50.78rem
+        &::before
+            content: ''
+            position: absolute
+            z-index: 2
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background-color: rgba($first, 0.25)
+    &__row
+        max-width: 69.21rem
+        margin: 4.28rem 20rem 0 25.71rem        
+.menu
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 0 auto
+    max-width: 83.571rem
+    padding-top: 5rem
+.logo
+    font-family: Lato
+    font-size: 3.714rem
+    font-weight: 300
+    line-height: 0.54rem
+    color: $light
+    text-decoration: none
+    text-transform: uppercase
+    z-index: 9
+.nav
+    z-index: 8
+    text-transform: lowercase
+    &__item
+        position: relative
+        cursor: pointer
+        font-size: 1.785rem
+        font-weight: 300
+        line-height: 0.54rem
+        color: $light
+        text-decoration: none 
+        margin-left: 5rem
+        &::after
+            content: ""
+            position: absolute
+            display: block
+            left: 15px
+            bottom: 0
+            width: 0%
+            height: 1px
+            background-color: $light
+            transition: width 0.3s ease-out
+        &:hover::after, &:focus::after
+            width: 100%
+               
+.hero
+    font-family: Open Sans SemiBold
+    text-align: center
+    color: $light
+    text-transform: uppercase
+    z-index: 22
+    &__title
+        font-size: 4.285rem
+        font-weight: 700
+        line-height: 7.546rem
+        margin: 0 0 2.85rem 0 
+        z-index: 10
+    &__subtitle
+        font-size: 2.428rem
+        font-weight: 300
+        line-height: normal
+        margin: 0            
+.form
+    display: flex   
+    flex-wrap: wrap
+    align-items: center
+    max-width: 25.071rem
+    width: 100%
+    margin-left: 38.21rem
+    margin-top: 3.14rem   
+.hero 
+    &__input
+        border: none
+        height: 4.071rem
+        width: 100%
+        &-group  
+            z-index: 5
+            width: 100%
+            border: 1px solid $light
+            background-color: $light
+            color: #a1a1a1
+            font-size: 1.5rem
+            font-weight: 400
+            line-height: 0.39rem   
+            margin-bottom: 3rem    
+    &__button
+        cursor: pointer
+        z-index: 6
+        width: 100%
+        height: 4.5rem
+        display: block
+        color: $light
+        font-size: 1.5rem
+        font-weight: 400
+        line-height: 0.39rem
+        padding: 1.64rem 7.64rem 1.64rem 7.85rem
+        text-transform: uppercase
+        text-align: center
+        
+
+    
+
+
